@@ -15,14 +15,14 @@ Perl NTFS ACL dump and compare
 # Prerequisites:
 Install modules:
 
-CPAN:
+# CPAN:
 Win32::FileSecurity
 Data::Compare
 File::Find
 Win32::File
 List::MoreUtils
 
-PPM:
+# PPM:
 Win32-FileSecurity
 Data-Compare
 File-Find
@@ -30,7 +30,7 @@ Win32-File
 List-MoreUtils
 
 
-#Usage: perl dumpacl2.pl <path> [-d/-n] [-r dns-domain-name]
+# Usage: perl dumpacl2.pl <path> [-d/-n] [-r dns-domain-name]
 		
 EXAMPLE: perl dumpacl2.pl C:\
 		
