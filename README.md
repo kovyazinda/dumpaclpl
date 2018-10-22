@@ -10,7 +10,27 @@ Perl NTFS ACL dump and compare
 
 - Reads target directory from STDIN, generates report aclrepYYYYMMDD.htm
 
-Usage: perl dumpacl2.pl <path> [-d/-n] [-r dns-domain-name]
+- Requires to be run on Windows platform due to Win32 modules operation
+
+# Prerequisites:
+Install modules:
+
+CPAN:
+Win32::FileSecurity
+Data::Compare
+File::Find
+Win32::File
+List::MoreUtils
+
+PPM:
+Win32-FileSecurity
+Data-Compare
+File-Find
+Win32-File
+List-MoreUtils
+
+
+#Usage: perl dumpacl2.pl <path> [-d/-n] [-r dns-domain-name]
 		
 EXAMPLE: perl dumpacl2.pl C:\
 		
