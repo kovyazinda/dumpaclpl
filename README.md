@@ -37,6 +37,6 @@ EXAMPLE: perl dumpacl2.pl C:\
 Use option -d to enable debugging - in this case filenames with different permissions will be displayed instead of path where anomaly has occurred. 
 Use option -n to display path only.
 Use option -r to enable account name resolution. Replace dns-domain-name with name of desired domain, for example -r my.domain.local
-
+#
 If you think that it is worth to support this project: 
 BTC 34kWXwjDn1uXQRfgeehaskD1hXZu713ZWQ
